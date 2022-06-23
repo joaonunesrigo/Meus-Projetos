@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: seagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header .menu{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+header .menu-line{
+    height: 2px;
+    background-color: white;
+   
+    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+    height: 100vh;
+    
+}
+
+.container .leftside{
+    background-color:#003147;
+    flex: 1;
+    height: 100%;
+    display:flex ;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.container .rightside{
+    background-color: blue;
+    flex: 1;
+    background-image: url(../assets/imagens/1644251481477\ \(1\).jpg);
+    background-size: 100% auto ;
+    background-position: center;
+   
+    
+}
+
+.container .info{
+    color: white;
+}
+.container .info .profissão{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 173px;
+}
+
+.container .info .nome{
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.container .info .buttons a{
+    display: inline-block;
+    background-color: white;
+    color: #003147;
+    padding: 20px 40px ;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px gainsboro;
+    border-radius: 60px;
+    margin-left: 220px;
+    
+    
+
+}
+
+
+
+
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
